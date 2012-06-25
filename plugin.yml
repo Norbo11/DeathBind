@@ -1,0 +1,23 @@
+name: DeathBind
+description: 'Bind your favourite items, avoid loosing them on death!'
+version: 1.0
+main: com.github.norbo11.deathbind.DeathBind
+commands:
+    bind:
+        description: 'Binds an item.'
+        usage: 'Usage: /<command>'
+    unbind:
+        description: 'Unbinds an item.'
+        usage: 'Usage: /<command>'
+permissions:
+    deathbind.*:
+        children:
+            itembind.use: true
+            itembind.circumstances: true
+        default: op
+    deathbind.use:
+        description: 'Allows you to bind items.'
+        default: false
+    deathbind.circumstances:
+        description: 'Allows you to view the circumstances in which you can die and receive your bound items.'
+        default: false

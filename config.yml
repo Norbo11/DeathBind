@@ -1,0 +1,25 @@
+#Define either 'true' or 'false' for each of these settings - they specify by what means the player can die and receive their bound items back.
+#If you can't work out what they mean, go ingame and type /bind deaths.
+circumstances:
+    BLOCK_EXPLOSION: true
+    CONTACT: true
+    CUSTOM: true
+    DROWNING: true
+    ENTITY_ATTACK: true
+    ENTITY_EXPLOSION: true
+    FALL: true
+    FIRE: true
+    FIRE_TICK: true
+    LAVA: true
+    LIGHTNING: true
+    MAGIC: true
+    POISON: true
+    PROJECTILE: true
+    STARVATION: true
+    SUFFOCATION: true
+    SUICIDE: true
+    VOID: true
+#Define the number of maximum types of individual items one player can bind.
+maxAmountOfBinds: 2
+#Define how much of each individual bound item will be received once the player dies and respawns. 
+maxAmountOfSavedItems: 64
